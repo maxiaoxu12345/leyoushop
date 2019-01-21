@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ly-authentication-common" />
+        <module name="ly-authentication-service" />
+        <module name="ly-item-interface" />
+        <module name="ly-item-service" />
+        <module name="ly-registry" />
+        <module name="lycart" />
+        <module name="lycommon" />
+        <module name="lygateway" />
+        <module name="lyorder" />
+        <module name="lypage" />
+        <module name="lysearch" />
+        <module name="lysms" />
+        <module name="lyupload" />
+        <module name="user-interface" />
+        <module name="user-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou" target="1.8" />
+      <module name="ly-authentication-common" target="1.8" />
+      <module name="ly-authentication-service" target="1.8" />
+      <module name="ly-item" target="1.8" />
+      <module name="ly-item-interface" target="1.8" />
+      <module name="ly-item-service" target="1.8" />
+      <module name="ly-iteminterface" target="1.8" />
+      <module name="ly-registry" target="1.8" />
+      <module name="lyauthentication" target="1.8" />
+      <module name="lycart" target="1.8" />
+      <module name="lycommon" target="1.8" />
+      <module name="lygateway" target="1.8" />
+      <module name="lyorder" target="1.8" />
+      <module name="lypage" target="1.8" />
+      <module name="lysearch" target="1.8" />
+      <module name="lysms" target="1.8" />
+      <module name="lyupload" target="1.8" />
+      <module name="lyuser" target="1.8" />
+      <module name="user-interface" target="1.8" />
+      <module name="user-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ly-authentication-common" options="-parameters" />
+      <module name="ly-authentication-service" options="-parameters" />
+      <module name="ly-item-interface" options="-parameters" />
+      <module name="ly-item-service" options="-parameters" />
+      <module name="ly-registry" options="-parameters" />
+      <module name="lycart" options="-parameters" />
+      <module name="lycommon" options="-parameters" />
+      <module name="lygateway" options="-parameters" />
+      <module name="lyorder" options="-parameters" />
+      <module name="lypage" options="-parameters" />
+      <module name="lysearch" options="-parameters" />
+      <module name="lysms" options="-parameters" />
+      <module name="lyupload" options="-parameters" />
+      <module name="user-interface" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

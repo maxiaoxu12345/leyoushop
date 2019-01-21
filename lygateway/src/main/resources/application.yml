@@ -1,0 +1,45 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: api-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8085/eureka
+zuul:
+  prefix: /api
+  routes:
+    item-service: /item/**
+    order-service: /order/**
+    cart-service: /cart/**
+    search-service:  /search/**
+    user-service:  /user/**
+    auth-service:  /auth/**
+    ly-upload:
+      path: /upload/**
+      serviceId:  ly-upload
+      strip-prefix: false #去除前缀
+  add-host-header: true  #如果改变host就改变host的值
+  sensitive-headers:  #敏感头为空不会过滤
+ribbon:
+  ConnectTimeout: 1000 # 连接超时时间(ms)
+  ReadTimeout: 3500 # 通信超时时间(ms)
+  MaxAutoRetriesNextServer: 0 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 0 # 同一实例的重试次数
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMillisecond: 5000 # 超时时长：10000ms
+pubKeyPath: H:\rsa.pub # 公钥地址
+cookieName: lyCookie
+allowPaths:
+      - /api/auth
+      - /api/search
+      - /api/order/register
+      - /api/order/check
+      - /api/order/code
+      - /api/item

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/leyou.iml" filepath="$PROJECT_DIR$/leyou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyauthentication/ly-authentication-common/ly-authentication-common.iml" filepath="$PROJECT_DIR$/lyauthentication/ly-authentication-common/ly-authentication-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyauthentication/ly-authentication-service/ly-authentication-service.iml" filepath="$PROJECT_DIR$/lyauthentication/ly-authentication-service/ly-authentication-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-item/ly-item.iml" filepath="$PROJECT_DIR$/ly-item/ly-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" filepath="$PROJECT_DIR$/ly-item/ly-item-interface/ly-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-item/ly-item-service/ly-item-service.iml" filepath="$PROJECT_DIR$/ly-item/ly-item-service/ly-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ly-registry/ly-registry.iml" filepath="$PROJECT_DIR$/ly-registry/ly-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyauthentication/lyauthentication.iml" filepath="$PROJECT_DIR$/lyauthentication/lyauthentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lycart/lycart.iml" filepath="$PROJECT_DIR$/lycart/lycart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lycommon/lycommon.iml" filepath="$PROJECT_DIR$/lycommon/lycommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lygateway/lygateway.iml" filepath="$PROJECT_DIR$/lygateway/lygateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyorder/lyorder.iml" filepath="$PROJECT_DIR$/lyorder/lyorder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lypage/lypage.iml" filepath="$PROJECT_DIR$/lypage/lypage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lysearch/lysearch.iml" filepath="$PROJECT_DIR$/lysearch/lysearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lysms/lysms.iml" filepath="$PROJECT_DIR$/lysms/lysms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyupload/lyupload.iml" filepath="$PROJECT_DIR$/lyupload/lyupload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyuser/lyuser.iml" filepath="$PROJECT_DIR$/lyuser/lyuser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyuser/user-interface/user-interface.iml" filepath="$PROJECT_DIR$/lyuser/user-interface/user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lyuser/user-service/user-service.iml" filepath="$PROJECT_DIR$/lyuser/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>

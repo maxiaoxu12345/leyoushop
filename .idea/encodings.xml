@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-item/ly-item-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-item/ly-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ly-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyauthentication" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyauthentication/ly-authentication-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyauthentication/ly-authentication-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lycart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lycommon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lygateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyorder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lypage" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lysearch" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lysms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyupload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyuser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyuser/user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lyuser/user-service" charset="UTF-8" />
+  </component>
+</project>

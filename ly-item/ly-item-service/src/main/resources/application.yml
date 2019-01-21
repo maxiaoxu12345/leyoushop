@@ -1,0 +1,31 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: item-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/cl
+    username: root
+    password: root
+  rabbitmq:
+      host: 192.168.25.128
+      username: guest
+      password: guest
+      virtual-host: /
+      template:
+        retry:
+            enabled: true
+            initial-interval: 10000ms
+            max-interval: 30000ms
+            multiplier: 2
+        exchange: leyou.item.exchange
+      publisher-confirms: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8085/eureka
+logging:
+  level:
+     com:
+        leyou:
+          mapper: debug
